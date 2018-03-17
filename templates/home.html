@@ -1,0 +1,13 @@
+	{% extends "base.html" %}
+	{% block head_title %} Welcome || {{block.super}} {% endblock head_title %}
+	{% block content %}
+	{{ block.super }}
+	<h2>HOME 1</h2>
+	<p>Fuck {{o}}</p>
+    <p>Random number is {{number}}</p>
+    <p>
+    	{% if tag %}
+    	<h2>MJ styles</h2>
+    	{% endif %}
+    </p>
+    {% endblock content %}

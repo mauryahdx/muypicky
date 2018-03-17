@@ -1,0 +1,7 @@
+	{% extends "base.html" %}
+    {% block head_title %}Contact||{{block.super}}{% endblock head_title %}
+	{% block content %}
+	{{ block.super }}
+	<h2>Contact</h2>
+	{% include 'snippets/navbar.html' %}
+    {% endblock content %}
